@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "short_name": "The Ultimate Help Tool",
+  "name": "The Ultimate Help Tool",
+  "description": "When you get stuck on a coding problem and you aren't sure what to do next, push this button",
+  "version": "0.1",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"],
+  "content_security_policy": "script-src 'self' 'sha256-5As******'; object-src 'self'",
+  "author": "Chris Otto"
+}
